@@ -2,16 +2,21 @@
 <html lang="cs">
 
 <head>
-    <title>Title</title>
+    <title>Filmy</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="Icon" href="../obrazky/marvel.png" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <style>
-                body {margin: 0;}
+                body {margin: 0;
+                    background-image: url(../obrazky/pzd.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;}
                 
                 ul.topnav {
                   list-style-type: none;
@@ -25,6 +30,7 @@
                 
                 ul.topnav li a {
                   display: block;
+                  font-family: arial;
                   color: white;
                   text-align: center;
                   padding: 14px 16px;
@@ -41,20 +47,25 @@
                   ul.topnav li.right, 
                   ul.topnav li {float: none;}
                 }
+                @media screen and (max-width: 600px) {
+                    table{
+                        font-size: 7px;
+                    }
+                }
                 </style>
 </head>
 
 <body>
         <header>
                 <ul class="topnav">
-                  <li><a class="active" href="#home">Home</a></li>
-                  <li><a href="#films">Filmy</a></li>
-                  <li><a href="#actors">Herci</a></li>
-                  <li><a href="#hrdinove">Hrdinové</a></li>
-                  <li><a href="#zaporaci">Záporaci</a></li>
-                  <li class="right"><a href=""></a></li>
+                  <li><a class="active" href="../index.html">Home</a></li>
+                  <li><a href="tabulka.html">Filmy</a></li>
+                  <li><a href="herci.html">Herci</a></li>
+                  <li><a href="buy.html">Zakoupení filmu</a></li>
+                  <li><a href="zaporaci.html">Záporaci</a></li>
                 </ul>
-                </header>    
+                </header>   
+                <div class="container">
     <table class="table table-bordered">
         <thead style="background-color: rgb(145, 1, 1); color: white">
             <tr>
@@ -65,162 +76,168 @@
                 <th>Výdělek</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody style="background-color: white; color: black;">
             <tr>
                 <td>Iron Man</td>
                 <td>2. května 2008</td>
                 <td>Jon Favreau</td>
                 <td>Avi Arad A Kevin Feige</td>
-                <td>x€</td>
+                <td>$585 200 000</td>
             </tr>
             <tr>
                 <td>The Incredible Hulk</td>
                 <td>13. června 2008</td>
                 <td>Louis Leterrier</td>
                 <td>Avi Arad, Gale Anne Hurd a Kevin Feige</td>
-                <td>vydělek</td>
+                <td>$263 400 000</td>
             </tr>
             <tr>
                 <td>Iron Man 2</td>
                 <td>7. května 2010</td>
                 <td>Jon Favreau</td>
                 <td>Kevin Feige</td>
-                <td>vydělek</td>
+                <td>$585 200 000</td>
             </tr>
             <tr>
                 <td>Thor</td>
                 <td>6. května 2011</td>
                 <td>Kenneth Branagh</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$449 300 000</td>
             </tr>
             <tr>
                 <td>Captain America: The First Avenger</td>
                 <td>22. července 2011</td>
                 <td>Joe Johnston</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$370 600 000</td>
             </tr>
             <tr>
                 <td>Marvel's The Avengers</td>
                 <td>4. května 2012</td>
                 <td>Joss Whedon</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$1 518 600 000</td>
             </tr>
             <tr>
                 <td>Iron Man 3</td>
                 <td>3. května 2013</td>
                 <td>Shane Black</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$1 215 400 000</td>
             </tr>
             <tr>
                 <td>Thor: The Dark World</td>
                 <td>8. listopadu 2013</td>
                 <td>Alan Taylor</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$644 800 000</td>
             </tr>
             <tr>
                 <td>Captain America: The Winter Soldier</td>
                 <td>4. dubna 2014</td>
                 <td>Anthony a Joe Russoovi</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$714,264,267</td>
             </tr>
             <tr>
                 <td>Guardians of the Galaxy</td>
                 <td>1. srpna 2014</td>
                 <td>James Gunn</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$773,328,629</td>
             </tr>
             <tr>
                 <td>Avengers: Age of Ultron</td>
                 <td>1. května</td>
                 <td>Joss Whedon</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$1,405,403,694</td>
             </tr>
             <tr>
                 <td>Ant-Man</td>
                 <td>17. července 2015</td>
                 <td>Peyton Reed</td>
                 <td>Kevin Feige</td>
-                <td>Firstname</td>
+                <td>$519,311,965</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Captain America: Civil War</td>
+                <td>6. května 2016</td>
+                <td>Anthony a Joe Russo</td>
+                <td>Kevin Feige</td>
+                <td>$1,153,304,495</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Guardians of the Galaxy Vol. 2</td>
+                <td>5. května 2017</td>
+                <td>James Gunn</td>
+                <td>Kevin Feige</td>
+                <td>$863,756,051</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Spider-Man: Homecoming</td>
+                <td>7. července 2017</td>
+                <td>Jon Watts</td>
+                <td>Kevin Feige a Amy Pascalová</td>
+                <td>$880,166,924</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Thor: Ragnarok</td>
+                <td>3. listopadu 2017</td>
+                <td>Taika Waititi</td>
+                <td>Kevin Feige</td>
+                <td>$853,977,126</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Black Panther</td>
+                <td>16. února 2018</td>
+                <td>Ryan Coogler</td>
+                <td>Kevin Feige</td>
+                <td>$1,346,913,161</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Avengers: Infinity War</td>
+                <td>27. dubna 2018</td>
+                <td>Anthony a Joe Russo</td>
+                <td>Kevin Feige</td>
+                <td>$2,048,359,754</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Ant-Man a Wasp</td>
+                <td>6. července 2018</td>
+                <td>Peyton Reed</td>
+                <td>Kevin Feige a Stephen Broussard</td>
+                <td>$622,674,139</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Captain Marvel</td>
+                <td>8. března 2019</td>
+                <td>Anna Bodenová a Ryan Fleck</td>
+                <td>Kevin Feige</td>
+                <td>$1,127,892,604</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Avengers: Endgame</td>
+                <td>26. dubna 2019</td>
+                <td>Anthony a Joe Russo</td>
+                <td>Kevin Feige</td>
+                <td>$2,742,491,359</td>
             </tr>
             <tr>
-                <td>July</td>
-                <td>Dooley</td>
-                <td>july@example.com</td>
-                <td>Firstname</td>
-                <td>Firstname</td>
+                <td>Spider-Man: Far from Home</td>
+                <td>2. července 2019</td>
+                <td>Jon Watts</td>
+                <td>Kevin Feige a Amy Pascalová</td>
+                <td>$</td>
             </tr>
         </tbody>
+        </table>
+    </div> 
+        <footer>
+            <hr style="background-color: black; height: 2px;">
+            <p style="text-align: center; color: black;"><b>&copy; Ondřej Kuděla IT1 2019</b></p>
+          </footer>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -233,6 +250,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
+            
 </body>
 
 </html>

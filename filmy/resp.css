@@ -1,0 +1,28 @@
+    body{
+        background-color: #222222;
+        color: white;
+    }
+    header
+    {
+        width: 10800px;
+        }
+    menu
+    {text-align: center;}
+    menu ul {
+        list-style-type: none;
+        }
+    menu li {
+        float: left; padding-right: 20px;
+        }
+@media screen and (max-width: 768px) {
+    #wrapper {
+    width: 760px;
+    }
+}
+@media screen and (max-width: 320px) {
+    #header{
+        width: 300px;}
+    #menu li {
+        float: none; padding-right: 0px;
+}
+}

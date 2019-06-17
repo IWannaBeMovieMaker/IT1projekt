@@ -6,13 +6,16 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
+    background-size: cover;
 }
 .pozadicko{
     position: absolute;
-    top: 37%;
+    top: 60%;
     text-align: center;
-    background-color: none;
     color: whitesmoke;
     margin-right: 20%;
     margin-left: 20%;
+}
+@media screen and (max-width: 600px) {
+    .pozadicko{top:80%;}
 }
